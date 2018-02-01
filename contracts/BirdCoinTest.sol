@@ -1,6 +1,7 @@
 pragma solidity ^0.4.18;
 
 import "zeppelin-solidity/contracts/token/MintableToken.sol";
+import "./BirdCoinTestCrowdsale.sol";
 
 contract BirdCoinTest is MintableToken {
     string public constant name = "BirdCoinTest";

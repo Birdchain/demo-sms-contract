@@ -8,7 +8,7 @@ contract BirdCoinTestCrowdsale is Ownable {
  using SafeMath for uint256;
 
  address constant ALLOCATOR_WALLET = 0x123; // some test wallet
- address constant tokenAmount = 1;
+ uint256 constant tokenAmount = 1;
  uint256 constant public CAP = 1000000 ether;
  bool public areTokensUnlocked = false;
  uint256 public tokensAllocated;
